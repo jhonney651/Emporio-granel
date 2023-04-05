@@ -1,0 +1,149 @@
+/* Estilo global */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  .cabecalho{
+    background-color: #2E8B57;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+ .cabecalho-logo {
+   height: 100px;
+ }
+
+ 
+  /* Barra de pesquisa*/
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 8px;
+    border-radius: 20px;
+    
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+  }
+  
+  .search-bar button[type="submit"] {
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+    cursor: pointer;
+
+  }
+  
+  .fa-search {
+    font-size: 16px;
+    color: #888;
+  }
+  
+   /*Ancoras do menu */
+   .cabecalho-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+   
+   }
+  
+   /*Icone de User*/
+   .cabecalho-icone-user {
+    height: 50px;
+  }
+
+  .carrinho-icone {
+    height: 50px;
+  }
+
+  
+  /* MAIN */
+  .main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .produtos-naturais-ul {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* define quatro colunas iguais */
+    grid-gap: 20px; /* espaçamento entre as colunas */   
+}
+
+.produtos-naturais-li {
+  padding: 5px 0;
+  list-style: none; /* remove os marcadores de lista */
+  text-align: center; /* centraliza o texto */
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produtos-naturais-li:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+  .lista-de-produtos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo do rodapé */
+  .footer {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .h3-footer {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .section-footer {
+    margin-bottom: 30px;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-ul p {
+    margin-bottom: 10px;
+  }
+  
