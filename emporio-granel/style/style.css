@@ -108,6 +108,13 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+li.produtos-naturais-li img {
+  display: block;
+  margin: -5px auto;
+  width: 106%;
+  height: 105%;
+}
+
 
   .lista-de-produtos {
     list-style: none;
